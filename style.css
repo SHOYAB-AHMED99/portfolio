@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color: transparent;
+    color: white;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+nav div ul>li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav div ul>li:hover {
+    color: #02ded2;
+    border-bottom: 2px solid #02ded2;
+    transition: 2s;
+}
+
+nav div>ul {
+    margin-left: 290px;
+    margin-top: 15px;
+}
+
+nav div>ul>.active {
+    color: #02ded2;
+    border-bottom: 2px solid #02ded2;
+}
+
+.hero .name {
+    color: white;
+    margin-top: 130px;
+
+}
+
+.hero .name a {
+    color: #02ded2;
+    text-decoration: none;
+    
+}
+
+
+.hero {
+
+    width: 100%;
+    height: 577px;
+    background-color: black;
+
+}
+
+.chat_btn {
+    border: none;
+    padding: 6px 32px;
+    font-weight: 500;
+    color: black;
+    background-color: #02ded2;
+    margin-top: 90px;
+    margin-left: -25px;
+
+}
+
+.chat_btn:hover {
+    background-color: white;
+    color: #02ded2;
+    background-color: black;
+    transition: 0.9s;
+    border: 1px solid #02ded2;
+
+
+}
+
+.call_btn {
+    padding: 7px 14px;
+    margin-left: 190px;
+    color: #02ded2;
+    border: 1px solid #02ded2;
+    background-color: black;
+}
+
+.call_btn a{
+    color: #02ded2;
+    text-decoration: none;
+}
+
+.call_btn span {
+    margin: 8px;
+}
+
+.social_icon {
+
+    margin-left: -51px;
+    padding: 15px;
+    color: #02ded2;
+}
+
+.social_icon a {
+    color: white;
+    border: 1px solid #02ded2;
+    padding: 6px 11px;
+    margin: 7px;
+    border-radius: 80px;
+    display: inline-block;
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+.social_icon a:hover {
+    color: black;
+    border: none;
+    background: #02ded2;
+    transition: .4s;
+
+}
+
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: -25px;
+}
+
+
+.details
+{
+    background-color: #daffff;
+}
+
+.card
+{
+    border: none;
+    margin: 60px;
+}
+
+
+.f_icon{
+    text-align: none;
+    color: gray;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 500px) {
+
+    .card
+{
+    border: none;
+    margin: 15px auto ;
+}
+    nav .logo a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        margin-left: 27px;
+         
+    }
+
+    nav div>ul {
+        margin-left: 290px;
+        margin-top: 15px;
+        display: none;
+    }
+
+    .call_btn {
+        padding: 7px 14px;
+        margin-left: -93px;
+        color: #02ded2;
+        border: 1px solid #02ded2;
+        background-color: black;
+        margin: 20px;
+    }
+
+    .chat_btn {
+        
+        margin-top: 36px;
+        margin-left: -27px;
+    }
+
+    .hero {
+
+        width: 100%;
+        height: 480px;
+        background-color: black;
+    }
+
+    .hero .name {
+        color: white;
+        margin-top: 99px;
+    }
+
+     
+
+    
+
+    .name {
+        font-size: 30px;
+        margin-top: 140px
+    }
+
+    .img1 {
+        width: 100%;
+        height: 200px;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .img3 {
+        width: 100%;
+        height: 200px;
+        /* margin-top: 200px ; */
+        z-index: 1;
+    }
+
+    .about {
+        margin-top: 150px;
+    }
+
+    
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+ 
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media  (max-width:767px) and (min-width: 500px)  {
+     
+
+    .name {
+        font-size: 39px;
+    }
+
+
+    .nav-item{
+        display: none;
+    }
+
+    .hero .name {
+         
+        margin-top: 69px;
+        
+    }
+
+    .grp
+    {
+        margin-left: 35px;
+    }
+
+    .chat_btn {
+        border: none;
+        padding: 6px 32px;
+        font-weight: 500;
+        color: black;
+        background-color: #02ded2;
+        margin-top: 21px;
+        margin-left: -25px;
+    }
+
+    nav .logo a {
+         
+        font-size: 32px;
+        margin-left: 49px;
+    }
+
+    .call_btn {
+        padding: 7px 14px;
+        margin-left: 194px;
+        color: #02ded2;
+        border: 1px solid #02ded2;
+        background-color: black;
+        font-size: 17px;
+    }
+
+    nav div>ul {
+        margin-left: 117px;
+        margin-top: 15px;
+        display: none;
+    }
+    
+    
+}
+
+ 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    
+
+    .name {
+        font-size: 50px;
+        margin-top: 140px
+    }
+
+    nav div>ul {
+        margin-left: 117px;
+        margin-top: 15px;
+        display: none;
+         
+    }
+
+    .call_btn {
+        margin-left: 387px;
+    }
+
+   
+}
+
+@media (min-width: 993px) and (max-width:1180px) {
+
+    .details
+    {
+        display: none;
+    }
+    
+
+    .name {
+        font-size: 50px;
+        margin-top: 140px
+    }
+
+    nav div>ul {
+        margin-left: 117px;
+        margin-top: 15px;
+         
+    }
+
+    .call_btn {
+       
+        margin-left: 387px;
+       
+    
+    }
+}
+
+ 
+
+
+
+
+ 
+
+ 
+ 
